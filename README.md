@@ -3,7 +3,7 @@
 Attached you will find a DB dump
 Seed the DB based on the dump
 
-In the resulted DB you will have these 4 tables: `users`, `charities, `countries` and `user_roles`.
+In the resulted DB you will have these 4 tables: `users`, `charities`, `countries` and `user_roles`.
 ```
 * users: id, email, password, token
 * charities: id, name, country_id
@@ -76,7 +76,7 @@ Simple application with Authentication, Authorization and multiple user levels u
 ## How to run
 
 ### Docker
-For running with docker use [Laravel Sail](https://laravel.com/docs/8.x/sail) package which is already included in `composer.json`, simply it's a `docker-compose` came with PHP, MySQL, and Redis and it's ready to start with one single command.
+For running with docker use [Laravel Sail](https://laravel.com/docs/8.x/sail) package which is already included in `composer.json` , simply it's a `docker-compose` came with PHP, MySQL, and Redis and it's ready to start with one single command.
 1. Clone the project.
 2. Run `composer install`
 3. Run `sail up -d`
